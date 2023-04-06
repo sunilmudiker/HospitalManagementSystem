@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="tests" name="Suite">
+  <test  name="Test_Runner_01" preserve-order="false">
+    <classes>
+      <class name="typesOfExecutions.TS_01"/>
+      <class name="typesOfExecutions.TS_02"/>
+    </classes>
+  </test> <!-- Test -->
+  
+   <test  name="Test_Runner_02" preserve-order="false">
+    <classes>
+      <class name="typesOfExecutions.TS_03"/>
+      <class name="typesOfExecutions.TS_04"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
